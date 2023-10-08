@@ -1,5 +1,4 @@
 package com.cadastroee.cadastroee;
-
 import com.cadastroee.persistence.dao.ProdutoDao;
 import com.cadastroee.persistence.entities.Produto;
 import jakarta.ejb.EJB;
@@ -12,7 +11,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet("/listarProdutos")
+@WebServlet("/SevletProduto")
 public class ProdutoListServlet extends HttpServlet {
 
     @EJB

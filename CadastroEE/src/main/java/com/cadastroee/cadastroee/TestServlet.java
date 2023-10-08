@@ -20,7 +20,6 @@ public class TestServlet extends HttpServlet {
     @PersistenceContext
     EntityManager em;
 
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String message;
