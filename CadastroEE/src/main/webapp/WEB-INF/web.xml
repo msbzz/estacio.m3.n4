@@ -5,7 +5,7 @@
          version="5.0">
     <servlet>
         <servlet-name>helloServlet</servlet-name>
-        <servlet-class>com.cadastroee.cadastroee.HelloServlet</servlet-class>
+        <servlet-class>com.estacio.cadastroee.HelloServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>helloServlet</servlet-name>
@@ -14,7 +14,7 @@
 
     <servlet>
         <servlet-name>TestServlet</servlet-name>
-        <servlet-class>com.cadastroee.cadastroee.TestServlet</servlet-class>
+        <servlet-class>com.estacio.cadastroee.TestServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>

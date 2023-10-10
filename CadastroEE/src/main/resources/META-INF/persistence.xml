@@ -5,11 +5,8 @@
              version="3.0">
     <persistence-unit name="CadastroEE-ejbPU" transaction-type="JTA">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-
-        <jta-data-source>jdbc/myMySQLResource</jta-data-source>
-        <!--  <jta-data-source>jdbc/newLoja</jta-data-source>-->
-        <class>com.cadastroee.persistence.entities.Produto</class>
-        <!--<class>com.cadastroee.persistence.entities.Usuario</class>-->
+        <jta-data-source>jdbc/loja</jta-data-source>
+         <class>com.estacio.persistence.entities.Produto</class>
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
     </persistence-unit>
 </persistence>
