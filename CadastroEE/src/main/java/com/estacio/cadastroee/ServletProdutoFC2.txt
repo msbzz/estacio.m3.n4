@@ -1,18 +1,19 @@
 package com.estacio.cadastroee;
 
-import java.io.IOException;
-import java.math.BigDecimal;
 import com.estacio.persistence.entities.Produto;
+import jakarta.ejb.EJB;
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import jakarta.servlet.RequestDispatcher;
-import jakarta.ejb.EJB;
+
+import java.io.IOException;
+import java.math.BigDecimal;
 
 @WebServlet(name = "ServletProdutoFC", urlPatterns = {"/ServletProdutoFC"})
-public class ServletProdutoFC extends HttpServlet {
+public class ServletProdutoFC2 extends HttpServlet {
 
     @EJB
     private ProdutoFacadeLocal facade;
@@ -56,8 +57,9 @@ public class ServletProdutoFC extends HttpServlet {
                 produtoAlterar.setQuantidade(Integer.parseInt(request.getParameter("quantidade")));
                 produtoAlterar.setPrecoVenda(new BigDecimal(request.getParameter("precoVenda")));
                 facade.edit(produtoAlterar);
-                response.sendRedirect("ServletProdutoFC?acao=listar"); // PRG
-                return;
+                request.setAttribute("produtos", facade.findAll());
+                destino = "ProdutoLista.jsp";
+                break;
 
             case "incluir":
                 Produto produto = new Produto();
@@ -65,8 +67,9 @@ public class ServletProdutoFC extends HttpServlet {
                 produto.setQuantidade(Integer.parseInt(request.getParameter("quantidade")));
                 produto.setPrecoVenda(new BigDecimal(request.getParameter("precoVenda")));
                 facade.create(produto);
-                response.sendRedirect("ServletProdutoFC?acao=listar"); // PRG
-                return;
+                request.setAttribute("produtos", facade.findAll());
+                destino = "ProdutoLista.jsp";
+                break;
 
             default:
                 break;
