@@ -27,20 +27,24 @@
 - Definir as camadas de persistência e controle no projeto
 - Criar um Servlet de teste no projeto CadastroEE-war
 - Executar o projeto  
-     -   Gerar Relatório discente de acompanhamento (RDA Part1.pdf) 
+- Gerar Relatório discente de acompanhamento (RDA Part1.pdf) 
       
    ![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/1c803077-00dc-4d55-8897-c216b23b2ffb)
 
 
- -  2º Procedimento | Criação do Cadastro em Modo Texto
 
-     -   Adaptar a classe main() a apresentação de um menu de opções para execução do CRUD
-     -   considerar tratamento de erro no input dos campos
-     -   gerar operações CRUD diretamente pelo menu    
-     -   Gerar Relatório discente de acompanhamento (RDA Part2.pdf)
+ 👉 2º Procedimento | Interface Cadastral com Servlet e JSPs
+
+ - Criar um Servlet com o nome ServletProdutoFC, no projeto CadastroEE-
+   war
+ - Criar a página de consulta, com o nome ProdutoLista.jsp
+ - Criar a página de cadastro, com o nome ProdutoDados.jsp
+ - Testar as funcionalidades do sistema
+ - Gerar Relatório discente de acompanhamento (RDA Part2.pdf)
     
    
-     ![image](https://github.com/msbzz/estacio.m3.n3/assets/44148209/5a497556-008a-4a1c-abab-00b512c24860)
+  ![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/d7963d63-cd9c-491c-a411-001ec2b0dd12)
+
 
 
     
