@@ -3,7 +3,7 @@
 ## Descrição
 
   Conhecer como funciona uma aplicação basica JAVA WEB utilizar servlets e jsp.
-  Instalar e configurar e integrar uma aplicação JAVA a um servidor GlassFish.
+  Instalar e configurar um servidor GlassFish integrando uma aplicação JAVA.
       
 
 ### Objetivos da prática
