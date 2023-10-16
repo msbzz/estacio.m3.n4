@@ -54,6 +54,7 @@
   - Modificar as características de ProdutoLista.jsp
 
   - Modificar as características de ProdutoDados.jsp
+  - Gerar Relatório discente de acompanhamento (RDA Part3.pdf) 
     
 ![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/d9e5d083-0db6-4ca5-b955-3f3bdb8474ca)
 ![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/04c8b4b9-69e7-4a11-81d9-b2a98b94ef11)
