@@ -62,21 +62,16 @@
 
  - Os relatórios podem ser encontrados na pasta raiz
 
-     ![image](https://github.com/msbzz/estacio.m3.n3/assets/44148209/7de67716-e9a6-4c10-80e3-5b8c5c60df26)
+   ![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/27ff4f90-83f2-4a9f-9ab5-ae30ab2fdf68)
 
 - Observaçoes
-   - A IDE utilizada foi Intellij IDEA
-   - O jdk utilizado foi o 20
-   - A execução do trabalho esta dividido em tres partes
-      - CRUD Pessoa Fisca (Pratica parte 1)
-        - execução do arquivo "CadastroBD_Part1_Fisica.java"
-      - CRUD Pessoa Juridica (Pratica parte 1)
-        - execução do arquivo "CadastroBD_Part1_Fisica.java"
-      - CRUD via menu (Pratica parte 2)
-        - execução do arquivo "CadastroBD_Part2.java"
- 
-      ![image](https://github.com/msbzz/estacio.m3.n3/assets/44148209/6e2a71cb-5bd4-4485-b01e-b214d078ab4c)
- 
+   - A IDE utilizada foi Intellij IDEA Ultimate
+   - O jdk utilizado foi o 17
+   - A execução do trabalho esta dividido em duas partes
+     - parte 1
+        http://localhost:8080/CadastroEE-WAR/ServletProduto
+    - parte 2 e 3   
+       http://localhost:8080/CadastroEE-WAR/ServletProdutoFC 
        
      
      ## Especificação
