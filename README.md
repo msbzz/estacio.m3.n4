@@ -69,9 +69,9 @@
    - O jdk utilizado foi o 17
    - A execução do trabalho esta dividido em duas partes
      - parte 1
-        http://localhost:8080/CadastroEE-WAR/ServletProduto
+        - http://localhost:8080/CadastroEE-WAR/ServletProduto
     - parte 2 e 3   
-       http://localhost:8080/CadastroEE-WAR/ServletProdutoFC 
+        - http://localhost:8080/CadastroEE-WAR/ServletProdutoFC 
        
      
      ## Especificação
