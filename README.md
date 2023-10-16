@@ -46,8 +46,17 @@
   ![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/d7963d63-cd9c-491c-a411-001ec2b0dd12)
 
 
+👉 3º Procedimento | Melhorando o Design da Interface
 
+
+  - Incluir as bibliotecas do framework Bootstrap nos arquivos ProdutoLista.jsp
+    e ProdutoDados.jsp
+  - Modificar as características de ProdutoLista.jsp
+
+  - Modificar as características de ProdutoDados.jsp
     
+![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/d9e5d083-0db6-4ca5-b955-3f3bdb8474ca)
+![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/04c8b4b9-69e7-4a11-81d9-b2a98b94ef11)
 
 
  - Os relatórios podem ser encontrados na pasta raiz
