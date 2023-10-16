@@ -2,28 +2,31 @@
 
 ## Descrição
 
- Aplicativo JAVA que implemente um CRUD utilizando como interface a interação via terminal ou prompt de comando onde é apresentando um menu de opções.
+ Conhecer o que é aplicação basica JAVA WEB utilizar servlets e jsp
      
 
 ### Objetivos da prática
 
-  - Implementar persistência com base no middleware JDBC.
-  - Utilizar o padrão DAO (Data Access Object) no manuseio de dados.
-  - Implementar o mapeamento objeto-relacional em sistemas Java.
-  - Criar sistemas cadastrais com persistência em banco relacional.
+- Implementar persistência com base em JPA.
+- Implementar regras de negócio na plataforma JEE, através de EJBs.
+- Implementar sistema cadastral Web com   base em Servlets e JSPs.
+- Utilizar a biblioteca Bootstrap para melhoria do design.
+- No final do exercício, o aluno terá criado todos os elementos necessários
+  para exibição e entrada de dados na plataforma Java Web, tornando-se
+  capacitado para lidar com contextos reais de aplicação.
    
 ### Procedimentos
 
 - Os procedimentos são divididos em duas etapas
 
-  -1º Procedimento | Mapeamento Objeto-Relacional e DAO
-     -   Criar projeto que utilize o banco da missão anterior (n2)
-     -   configurar a utilização do drive jdbc para o sql server
-     -   criar classe PessoaFisica, PessaoJuridica com suas respectivas propriedades
-     -   criar classes utilitarias de conexão e gerenciamento de sequences 
-     -   criar classes DAO relativas as classes PessoaFisica e PessoasJuridica 
-     -   organizar classes em pacotes
-     -   gerar operações CRUD diretamente com as classes DAO   
+👉 1º Procedimento | Camadas de Persistência e Controle
+
+- Configurar do GlassFish 6.2.1 
+- Configuração da conexão com SQL Server e criação no pool de conexão do glassfish
+- Criar o aplicativo corporativo 
+- Definir as camadas de persistência e controle no projeto
+- Criar um Servlet de teste no projeto CadastroEE-war
+- Executar o projeto  
      -   Gerar Relatório discente de acompanhamento (RDA Part1.pdf) 
       
    ![image](https://github.com/msbzz/estacio.m3.n3/assets/44148209/2348498f-de9a-4711-ace3-d9e4198d4bf5)
