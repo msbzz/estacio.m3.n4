@@ -2,8 +2,9 @@
 
 ## Descrição
 
- Conhecer o que é aplicação basica JAVA WEB utilizar servlets e jsp
-     
+  Conhecer como funciona uma aplicação basica JAVA WEB utilizar servlets e jsp.
+  Instalar e configurar um servidor GlassFish integrando uma aplicação JAVA.
+      
 
 ### Objetivos da prática
 
