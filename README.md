@@ -30,7 +30,7 @@
 - Executar o projeto  
 - Gerar Relatório discente de acompanhamento (RDA Part1.pdf) 
       
-   ![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/1c803077-00dc-4d55-8897-c216b23b2ffb)
+   ![image](cadastroEE/dewb/image1.png)
 
 
 
@@ -44,7 +44,7 @@
  - Gerar Relatório discente de acompanhamento (RDA Part2.pdf)
     
    
-  ![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/d7963d63-cd9c-491c-a411-001ec2b0dd12)
+  ![image](cadastroEE/dewb/image2.png)
 
 
 👉 3º Procedimento | Melhorando o Design da Interface
@@ -57,13 +57,13 @@
   - Modificar as características de ProdutoDados.jsp
   - Gerar Relatório discente de acompanhamento (RDA Part3.pdf) 
     
-![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/d9e5d083-0db6-4ca5-b955-3f3bdb8474ca)
-![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/04c8b4b9-69e7-4a11-81d9-b2a98b94ef11)
+![image](cadastroEE/dewb/image3.png)
+![image](cadastroEE/dewb/image4.png)
 
 
  - Os relatórios podem ser encontrados na pasta raiz
 
-   ![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/27ff4f90-83f2-4a9f-9ab5-ae30ab2fdf68)
+   ![image](cadastroEE/dewb/image5.png)
 
 - Observaçoes
    - A IDE utilizada foi Intellij IDEA Ultimate
