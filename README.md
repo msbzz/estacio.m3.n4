@@ -30,7 +30,7 @@
 - Executar o projeto  
 - Gerar Relatório discente de acompanhamento (RDA Part1.pdf) 
       
-   ![image](cadastroEE/src/images/image1.png)
+   ![image](CadastroEE/src/images/image1.png)
 
 
 
@@ -44,7 +44,7 @@
  - Gerar Relatório discente de acompanhamento (RDA Part2.pdf)
     
    
-  ![image](cadastroEE/src/images/image2.png)
+  ![image](CadastroEE/src/images/image2.png)
 
 
 👉 3º Procedimento | Melhorando o Design da Interface
@@ -57,13 +57,13 @@
   - Modificar as características de ProdutoDados.jsp
   - Gerar Relatório discente de acompanhamento (RDA Part3.pdf) 
     
-![image](cadastroEE/src/images/image3.png)
-![image](cadastroEE/src/images/image4.png)
+![image](CadastroEE/src/images/image3.png)
+![image](CadastroEE/src/images/image4.png)
 
 
  - Os relatórios podem ser encontrados na pasta raiz
 
-   ![image](cadastroEE/src/images/image5.png)
+   ![image](CadastroEE/src/images/image5.png)
 
 - Observaçoes
    - A IDE utilizada foi Intellij IDEA Ultimate
