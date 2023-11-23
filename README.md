@@ -71,10 +71,17 @@
    - A execução do trabalho esta dividido em duas partes
      - parte 1
         - http://localhost:8080/CadastroEE-WAR/ServletProduto
+        - http://localhost:8080/CadastroEE-WAR/SevletProduto
     - parte 2 e 3   
         - http://localhost:8080/CadastroEE-WAR/ServletProdutoFC 
        
-     
+- Considerações finais
+  - Considerando existir um servidor Glassfish contendo as configurações necessárias para comunicação, considerar a seguinte pasta 'target' contendo arquivo '.war'
+
+  local
+  
+  ![image](CadastroEE/src/images/image6.png)     
+
      ## Especificação
     https://sway.office.com/xixE9HxcyecGGJa3?ref=Link&loc=play
     
