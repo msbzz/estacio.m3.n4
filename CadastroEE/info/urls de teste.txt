@@ -1,0 +1,11 @@
+URL1
+http://localhost:8080/cadastroEE/teste1.html
+
+URL2
+http://localhost:8080/myapp/api/hello-world
+
+URL3
+http://localhost:8080/cadastroEE/ListProduto
+
+URL4
+http://localhost:8080/cadastroEE/ServletProdutoFC

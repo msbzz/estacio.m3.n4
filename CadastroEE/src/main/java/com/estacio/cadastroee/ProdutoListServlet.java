@@ -11,7 +11,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet("/SevletProduto")
+@WebServlet(name="ProdutoListServlet", urlPatterns = {"/ListProduto"})
 public class ProdutoListServlet extends HttpServlet {
 
     @EJB
