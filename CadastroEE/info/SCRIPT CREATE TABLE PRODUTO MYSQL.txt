@@ -1,0 +1,7 @@
+CREATE TABLE `produto` (
+  `idProduto` int NOT NULL AUTO_INCREMENT,
+  `nome` varchar(45) DEFAULT NULL,
+  `quantidade` int DEFAULT NULL,
+  `precoVenda` decimal(10,2) DEFAULT NULL,
+  PRIMARY KEY (`idProduto`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
