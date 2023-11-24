@@ -70,19 +70,35 @@
    - O jdk utilizado foi o 17
    - A execução do trabalho esta dividido em duas partes
      - parte 1
-        - http://localhost:8080/CadastroEE-WAR/ServletProduto
-        - http://localhost:8080/CadastroEE-WAR/SevletProduto
+        - http://localhost:8080/cadastroEE/ListProduto
+
     - parte 2 e 3   
-        - http://localhost:8080/CadastroEE-WAR/ServletProdutoFC 
+        - http://localhost:8080/cadastroEE-WAR/ServletProdutoFC 
        
 - Considerações finais
-  - Considerando existir um servidor Glassfish contendo as configurações necessárias para comunicação, considerar a seguinte pasta 'target' contendo arquivo '.war'
 
-  local
-  
-  ![image](CadastroEE/src/images/image6.png)     
+  - Foi modificada a variável de contexto do Glassfish para que o mapeamento do  servlets fosse alterado de 'CadastroEE-WAR' para 'cadastroEE' por isso as imagens tem um mapeamento diferente do link de execução.
 
-     ## Especificação
+    - obs: Essa variável de contexto é configurada no momento do deploy via pagina administrativa
+
+    - pasta arquivo '.war'
+    ![image](CadastroEE/src/images/deploy%20app%20war.png)
+
+    - configura da variavel de contexto
+    ![image](CadastroEE/src/images/deploy%20app%20war2.png)
+
+    - conclusão do deploy
+    ![image](CadastroEE/src/images/deploy%20app%20war3.png)  
+
+  - Devido a problemas na conexão entre o app e o servidor,foi necessário criar um pool de conexão para o mysql e apontar o recurso para este para poder concluir as objetivos do trabalho, porem creio que o importante é que se tenha o recurso 'jdbc/loja' apontando para um pool de conexão de qualquer banco que contenha a tabela solicitada na espec.
+   
+   - recurso jdbc/loja esperado 
+   ![image](CadastroEE/src/images/criar%20recurso%20mysql.png)
+
+   - pool de conexões disponíveis  
+   ![image](CadastroEE/src/images/poolconexoes.png)
+
+     ## Especificação oficial
     https://sway.office.com/xixE9HxcyecGGJa3?ref=Link&loc=play
     
    
