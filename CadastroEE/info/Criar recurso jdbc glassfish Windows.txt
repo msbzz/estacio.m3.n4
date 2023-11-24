@@ -1,0 +1,7 @@
+Considerendo uso do Power Shell
+
+# Criar o recurso JDBC
+> ./ASADMIN create-jdbc-resource --connectionpoolid MySqlPool jdbc/loja
+
+# Listar recursos JDBC para verificar a criação
+> ./ASADMIN list-jdbc-resources

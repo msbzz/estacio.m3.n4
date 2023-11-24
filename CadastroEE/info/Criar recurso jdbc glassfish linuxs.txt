@@ -1,0 +1,4 @@
+> ASADMIN create-jdbc-resource --connectionpoolid MySqlPool jdbc/loja
+
+# Listar recursos JDBC para verificar a criação
+> ASADMIN list-jdbc-resources
