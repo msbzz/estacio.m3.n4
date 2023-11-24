@@ -67,7 +67,8 @@
 
 - Observaçoes
    - A IDE utilizada foi Intellij IDEA Ultimate
-   - O jdk utilizado foi o 17
+   - O jdk utilizado foi o 11
+   - A versão do servidor GlassFish foi a 6.2.5
    - A execução do trabalho esta dividido em duas partes
      - parte 1
         - http://localhost:8080/cadastroEE/ListProduto
@@ -76,6 +77,7 @@
         - http://localhost:8080/cadastroEE-WAR/ServletProdutoFC 
        
 - Considerações finais
+  - Considerando a especificação a escolha da versão do servidor teve objetivo de manter a compatibilidade com o jdk11 já que a espec fala de servidor versão 6.2.1 para cima e este é compatível ao jdk11 
 
   - Foi modificada a variável de contexto do Glassfish para que o mapeamento do  servlets fosse alterado de 'CadastroEE-WAR' para 'cadastroEE' por isso as imagens tem um mapeamento diferente do link de execução.
 
